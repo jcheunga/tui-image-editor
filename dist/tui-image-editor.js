@@ -2750,7 +2750,7 @@ fabric.CommonMethods = {
 
   /**
    * Creates an empty object and copies all enumerable properties of another object to it
-   * This method is mostly for internal use, and not intended for duplicating shapes in canvas. 
+   * This method is mostly for internal use, and not intended for duplicating shapes in canvas.
    * @memberOf fabric.util.object
    * @param {Object} object Object to clone
    * @param {Boolean} [deep] Whether to clone nested objects
@@ -24781,7 +24781,7 @@ fabric.Image.filters.BaseFilter.fromObject = function(object, callback) {
      * Saturation value, from -1 to 1.
      * Increases/decreases the color saturation.
      * A value of 0 has no effect.
-     * 
+     *
      * @param {Number} saturation
      * @default
      */
@@ -24903,7 +24903,7 @@ fabric.Image.filters.BaseFilter.fromObject = function(object, callback) {
      * Vibrance value, from -1 to 1.
      * Increases/decreases the saturation of more muted colors with less effect on saturated colors.
      * A value of 0 has no effect.
-     * 
+     *
      * @param {Number} vibrance
      * @default
      */
@@ -30837,7 +30837,7 @@ var isArray = __webpack_require__(602);
  * @example
  * // ES6
  * import inArray from 'tui-code-snippet/array/inArray';
- * 
+ *
  * // CommonJS
  * const inArray = require('tui-code-snippet/array/inArray');
  *
@@ -30906,10 +30906,10 @@ var forEachOwnProperties = __webpack_require__(5573);
  * @memberof module:collection
  * @example
  * // ES6
- * import forEach from 'tui-code-snippet/collection/forEach'; 
- * 
+ * import forEach from 'tui-code-snippet/collection/forEach';
+ *
  * // CommonJS
- * const forEach = require('tui-code-snippet/collection/forEach'); 
+ * const forEach = require('tui-code-snippet/collection/forEach');
  *
  * let sum = 0;
  *
@@ -30963,9 +30963,9 @@ module.exports = forEach;
  * @example
  * // ES6
  * import forEachArray from 'tui-code-snippet/collection/forEachArray';
- * 
+ *
  * // CommonJS
- * const forEachArray = require('tui-code-snippet/collection/forEachArray'); 
+ * const forEachArray = require('tui-code-snippet/collection/forEachArray');
  *
  * let sum = 0;
  *
@@ -31017,9 +31017,9 @@ module.exports = forEachArray;
  * @example
  * // ES6
  * import forEachOwnProperties from 'tui-code-snippet/collection/forEachOwnProperties';
- * 
+ *
  * // CommonJS
- * const forEachOwnProperties = require('tui-code-snippet/collection/forEachOwnProperties'); 
+ * const forEachOwnProperties = require('tui-code-snippet/collection/forEachOwnProperties');
  *
  * let sum = 0;
  *
@@ -31073,9 +31073,9 @@ var R_EVENTNAME_SPLIT = /\s+/g;
  * @example
  * // ES6
  * import CustomEvents from 'tui-code-snippet/customEvents/customEvents';
- * 
+ *
  * // CommonJS
- * const CustomEvents = require('tui-code-snippet/customEvents/customEvents'); 
+ * const CustomEvents = require('tui-code-snippet/customEvents/customEvents');
  */
 function CustomEvents() {
   /**
@@ -31095,10 +31095,10 @@ function CustomEvents() {
  * @param {function} func - constructor
  * @example
  * //ES6
- * import CustomEvents from 'tui-code-snippet/customEvents/customEvents'; 
- * 
+ * import CustomEvents from 'tui-code-snippet/customEvents/customEvents';
+ *
  * // CommonJS
- * const CustomEvents = require('tui-code-snippet/customEvents/customEvents'); 
+ * const CustomEvents = require('tui-code-snippet/customEvents/customEvents');
  *
  * function Model() {
  *     this.name = '';
@@ -31265,10 +31265,10 @@ CustomEvents.prototype._bindEvent = function(eventName, handler, context) {
  * @param {object} [context] - context for binding
  * //-- #1. Get Module --//
  * // ES6
- * import CustomEvents from 'tui-code-snippet/customEvents/customEvents'; 
- * 
+ * import CustomEvents from 'tui-code-snippet/customEvents/customEvents';
+ *
  * // CommonJS
- * const CustomEvents = require('tui-code-snippet/customEvents/customEvents'); 
+ * const CustomEvents = require('tui-code-snippet/customEvents/customEvents');
  *
  * //-- #2. Use method --//
  * // # 2.1 Basic Usage
@@ -31502,10 +31502,10 @@ CustomEvents.prototype._offByObject = function(obj, handler) {
  * @example
  * //-- #1. Get Module --//
  * // ES6
- * import CustomEvents from 'tui-code-snippet/customEvents/customEvents'; 
- * 
+ * import CustomEvents from 'tui-code-snippet/customEvents/customEvents';
+ *
  * // CommonJS
- * const CustomEvents = require('tui-code-snippet/customEvents/customEvents'); 
+ * const CustomEvents = require('tui-code-snippet/customEvents/customEvents');
  *
  * //-- #2. Use method --//
  * // # 2.1 off by event name
@@ -31704,7 +31704,7 @@ var isNull = __webpack_require__(3778);
  * @example
  * // ES6
  * import pick from 'tui-code-snippet/object/pick';
- * 
+ *
  * // CommonJS
  * const pick = require('tui-code-snippet/object/pick');
  *
@@ -31772,7 +31772,7 @@ var forEachOwnProperties = __webpack_require__(5573);
  * @example
  * // ES6
  * import imagePing from 'tui-code-snippet/request/imagePing';
- * 
+ *
  * // CommonJS
  * const imagePing = require('tui-code-snippet/request/imagePing');
  *
@@ -31933,7 +31933,7 @@ var isNull = __webpack_require__(3778);
  * @example
  * // ES6
  * import isExisty from 'tui-code-snippet/type/isExisty');
- * 
+ *
  * // CommonJS
  * const isExisty = require('tui-code-snippet/type/isExisty');
  *
@@ -40065,7 +40065,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__4858__;
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -40079,14 +40079,14 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__4858__;
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	!function() {
@@ -40099,7 +40099,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__4858__;
 /******/ 			return getter;
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
 /******/ 		// define getter functions for harmony exports
@@ -40111,7 +40111,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__4858__;
 /******/ 			}
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/global */
 /******/ 	!function() {
 /******/ 		__webpack_require__.g = (function() {
@@ -40123,12 +40123,12 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__4858__;
 /******/ 			}
 /******/ 		})();
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	!function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
 /******/ 	}();
-/******/ 	
+/******/
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
@@ -46165,7 +46165,7 @@ var Draw = /*#__PURE__*/function (_Submenu) {
     _this._els = {
       lineSelectButton: _this.selector('.tie-draw-line-select-button'),
       drawColorPicker: new colorpicker(_this.selector('.tie-draw-color'), {
-        defaultColor: '#00a9ff',
+        defaultColor: '#ffffff',
         toggleDirection: _this.toggleDirection,
         usageStatistics: _this.usageStatistics
       }),
